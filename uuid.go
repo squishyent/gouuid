@@ -3,7 +3,7 @@
 // and 5 UUIDs as specified in RFC 4122.
 //
 // Copyright (C) 2011 by Krzysztof Kowalik <chris@nu7hat.ch>
-package uuid
+package gouuid
 
 import (
 	"crypto/md5"
@@ -16,7 +16,7 @@ import (
 	"regexp"
 )
 
-// The UUID reserved variants. 
+// The UUID reserved variants.
 const (
 	ReservedNCS       byte = 0x80
 	ReservedRFC4122   byte = 0x40

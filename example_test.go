@@ -1,8 +1,8 @@
-package uuid_test
+package gouuid_test
 
 import (
 	"fmt"
-	"github.com/nu7hatch/gouuid"
+	"github.com/squishyent/gouuid"
 )
 
 func ExampleNewV4() {
